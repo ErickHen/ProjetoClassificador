@@ -5,7 +5,7 @@ from PyPDF2 import PdfReader
 from ml_model import classify_email
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 # Extrai texto de arquivos .txt e .pdf
 def extract_text(file):
