@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classificador de Emails</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-container">
+    <header>
+      <p>classifier.com</p>
+    </header>
+
+    <main>
+      <h1>Classificador de Emails</h1>
+      <p class="subtitle">Faça upload de um arquivo ou cole o texto do email</p>
+
+      <div class="upload-box">
+        <input type="file" id="fileInput" accept=".txt,.pdf">
+        <textarea id="emailText" placeholder="Cole aqui o texto do email..."></textarea>
+        <button class="btn-submit" onclick="processEmail()">Enviar para Processamento</button>
+      </div>
+
+      <div class="results" id="resultsBox">
+        <h2 id="category"></h2>
+        <p id="answer"></p>
+      </div>
+    </main>
+
+    <footer class="main-footer">
+      <p>© 2025 - Projeto de Classificação de Emails | Desenvolvido com HTML, CSS, JS e Python</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>

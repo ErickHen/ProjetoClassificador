@@ -1,0 +1,135 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("image/background.jpg");
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.page-container {
+  min-height: 100vh;
+  position: relative; 
+  padding-bottom: 80px; 
+}
+
+header {
+  position: fixed; 
+  top: 0;         
+  left: 0;        
+  width: 100%;     
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  font-size: 20px;
+  color: #9aa4ad;
+  text-align: left;
+  z-index: 1000;
+}
+
+header p {
+  color: #e74c3c;
+  margin-left: 300px;
+}
+
+main {
+  margin-top: 120px;
+}
+
+h1 {
+  color: #e74c3c;
+  margin-top: 40px;
+}
+
+p.subtitle {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.upload-box {
+  width: 60%;
+  margin: 0 auto;
+  padding: 40px 20px;
+  border-radius: 8px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.31);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.8px);
+  -webkit-backdrop-filter: blur(7.8px);
+}
+
+.upload-box input[type="file"],
+.upload-box textarea {
+  display: block;
+  margin: 20px auto;
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.upload-box textarea {
+  height: 150px;
+  resize: none;
+}
+
+.btn-submit {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-submit:hover {
+  background: #c0392b;
+}
+
+.results {
+  margin-top: 40px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-radius: 8px;
+  display: none;
+  background: rgba(0, 0, 0, 0.31);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.8px);
+  -webkit-backdrop-filter: blur(7.8px);
+}
+
+.results h2 {
+  color: #27ae60;
+}
+
+.results p {
+  font-size: 16px;
+  color: #fff;
+}
+
+.main-footer {
+  text-align: center;
+  padding: 16px 10px;
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  font-size: 13px;
+  color: #9aa4ad;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  padding: 15px 0; 
+}
+
+.main-footer p {
+  margin: bottom;
+  color: #fff;
+}
+ 
