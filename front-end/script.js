@@ -20,7 +20,7 @@ async function processEmail() {
   resultsBox.style.display = "block";
 
   try {
-    const resp = await fetch("http://localhost:5000/api/process", { 
+    const resp = await fetch("https://projetoclassificador.onrender.com/api/process", { 
       method: "POST", 
       body: formData 
     });
