@@ -11,7 +11,7 @@ async function processEmail() {
   }
   formData.append("text", textArea.value);
 
-  // ✅ limpa imediatamente após capturar os dados
+  // limpa imediatamente após capturar os dados
   fileInput.value = "";
   textArea.value = "";
 
