@@ -16,7 +16,7 @@ def extract_text(file):
         return " ".join(page.extract_text() or "" for page in reader.pages)
     return ""
 
-@app.route("https://projetoclassificador.onrender.com/api/process", methods=["POST"])
+@app.route("/api/process", methods=["POST"])
 def process():
     uploaded_file = request.files.get("file")
     email_text = request.form.get("text", "")
