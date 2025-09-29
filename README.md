@@ -1,4 +1,4 @@
-📧 #Classificador de E-mails com IA
+# 📧 Classificador de E-mails com IA
 
 Este projeto consiste em uma aplicação web que classifica e-mails em Produtivos ou Improdutivos e gera uma resposta automática sugerida utilizando inteligência artificial.
 A aplicação é dividida em frontend e backend, com deploy no Vercel e Render, respectivamente.
