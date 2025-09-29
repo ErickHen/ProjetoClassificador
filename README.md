@@ -39,16 +39,6 @@ O modelo retorna se o e-mail é Produtivo ou Improdutivo.
 Uma chamada à API DeepSeek gera a resposta automática recomendada.
 O frontend exibe o resultado na interface.
 
-📂 Estrutura do Projeto
-├── backend/
-│   ├── app.py          # API Flask
-│   ├── ml_model.py     # Modelo de IA treinado
-│   └── requirements.txt
-├── frontend/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-└── README.md
 
  ▶️ Executando Localmente
 Backend
