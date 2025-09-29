@@ -3,7 +3,7 @@
 Este projeto consiste em uma aplicação web que classifica e-mails em Produtivos ou Improdutivos e gera uma resposta automática sugerida utilizando inteligência artificial.
 A aplicação é dividida em frontend e backend, com deploy no Vercel e Render, respectivamente.
 
-# 🚀 Demonstração
+ 🚀 Demonstração
 
 🔹 O usuário pode:
 
@@ -11,13 +11,13 @@ Inserir um texto de e-mail manualmente.
 Fazer upload de arquivos .txt ou .pdf contendo o e-mail.
 Receber instantaneamente a classificação e uma resposta automática.
 
-# 🖼️ Interface
+ 🖼️ Interface
 
 Upload box com efeito vidro preto fosco.
 Resultados exibidos em destaque logo após o envio.
 Formulário é limpo automaticamente após cada envio.
 
-# 🛠️ Tecnologias Utilizadas
+ 🛠️ Tecnologias Utilizadas
 
 Frontend (Vercel)
 HTML, CSS e JavaScript
@@ -31,7 +31,7 @@ NLTK para pré-processamento de texto
 TF-IDF para vetorização
 Integração com API DeepSeek (OpenRouter) para geração de respostas inteligentes
 
-# ⚙️ Como Funciona
+ ⚙️ Como Funciona
 
 O usuário envia um e-mail (texto, .txt ou .pdf).
 O backend processa o texto, aplica pré-processamento e classifica com Naive Bayes.
@@ -50,7 +50,7 @@ O frontend exibe o resultado na interface.
 │   └── script.js
 └── README.md
 
-# ▶️ Executando Localmente
+ ▶️ Executando Localmente
 Backend
 cd backend
 pip install -r requirements.txt
