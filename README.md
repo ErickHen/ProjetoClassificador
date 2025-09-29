@@ -50,12 +50,12 @@ Frontend
 
 Abra o index.html no navegador ou utilize Live Server no VSCode.
 
-# 🌍 Deploy
+ 🌍 Deploy
 
 Backend: Render
 Frontend: Vercel
 Comunicação via endpoint:
 
-# 👨‍💻 Autor
+ 👨‍💻 Autor
 
 Desenvolvido por Erik Henrique 🚀
